@@ -242,6 +242,7 @@
         if (bgmPlayer.isPlaying == YES)
             [bgmPlayer stop];
     }
+    [self removegameview];
     //添加主页
     [self.view addSubview:baImgView];
     [self.view addSubview:buttonSoundOn];
@@ -325,6 +326,17 @@
     SKhistoryViewController * historyview = [[SKhistoryViewController alloc] init];
     [self presentViewController:historyview animated:NO completion:^{}];
 }
+
+//游戏返回后移除游戏中的内容
+-(void)removegameview{
+    [buttonpause removeFromSuperview];
+    [buttonContinue removeFromSuperview];
+    [buttonStartAgain removeFromSuperview];
+    [baImgView removeFromSuperview];
+    [buttonBankHome removeFromSuperview];
+}
+
+//进入到游戏后移除主页的内容
 -(void)removeview{
     //移除主页
     [baImgView removeFromSuperview];
