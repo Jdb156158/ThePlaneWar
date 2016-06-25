@@ -36,6 +36,7 @@
 		18A9D93B188CFEB2001684BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A9D916188CFEB2001684BB /* UIKit.framework */; };
 		18A9D943188CFEB2001684BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A9D941188CFEB2001684BB /* InfoPlist.strings */; };
 		18A9D945188CFEB2001684BB /* SpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9D944188CFEB2001684BB /* SpriteKitTests.m */; };
+		6D1FBB861D1D33CD00EC711F /* YFViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1FBB851D1D33CD00EC711F /* YFViewPager.m */; };
 		6D43759B1C7B0D8E00D4A8CD /* 背景图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D43759A1C7B0D8E00D4A8CD /* 背景图片.png */; };
 		6D43F51A1CB8AB3A0074DCA8 /* gameArts-hd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D43F5191CB8AB3A0074DCA8 /* gameArts-hd@2x.png */; };
 		6D43F51D1CB8AB490074DCA8 /* sound-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D43F51B1CB8AB490074DCA8 /* sound-off.png */; };
@@ -44,11 +45,7 @@
 		6D44556C1C7DB23F00341220 /* SqlightDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455671C7DB23F00341220 /* SqlightDriver.m */; };
 		6D44556D1C7DB23F00341220 /* SqlightResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455691C7DB23F00341220 /* SqlightResult.m */; };
 		6D44556F1C7DB31500341220 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D44556E1C7DB31500341220 /* libsqlite3.tbd */; };
-		6D4455791C7DB79100341220 /* DAPageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455721C7DB79100341220 /* DAPageIndicatorView.m */; };
-		6D44557A1C7DB79100341220 /* DAPagesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455741C7DB79100341220 /* DAPagesContainer.m */; };
-		6D44557B1C7DB79100341220 /* DAPagesContainerTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455761C7DB79100341220 /* DAPagesContainerTopBar.m */; };
-		6D44557F1C7DB8A300341220 /* SKhistoryjindianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D44557E1C7DB8A300341220 /* SKhistoryjindianViewController.m */; };
-		6D4455821C7DB8B300341220 /* SKhistorytiaozhanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4455811C7DB8B300341220 /* SKhistorytiaozhanViewController.m */; };
+		6D9D05B91CCB521F00262585 /* adbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D05B81CCB521F00262585 /* adbanner.png */; };
 		6DD1DF871C7C34A100D45658 /* SKhistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD1DF861C7C34A100D45658 /* SKhistoryViewController.m */; };
 		6DD1DF891C7C469900D45658 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD1DF881C7C469900D45658 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -101,6 +98,8 @@
 		18A9D940188CFEB2001684BB /* SpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitTests-Info.plist"; sourceTree = "<group>"; };
 		18A9D942188CFEB2001684BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18A9D944188CFEB2001684BB /* SpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitTests.m; sourceTree = "<group>"; };
+		6D1FBB841D1D33CD00EC711F /* YFViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFViewPager.h; sourceTree = "<group>"; };
+		6D1FBB851D1D33CD00EC711F /* YFViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFViewPager.m; sourceTree = "<group>"; };
 		6D43759A1C7B0D8E00D4A8CD /* 背景图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景图片.png"; sourceTree = "<group>"; };
 		6D43F5191CB8AB3A0074DCA8 /* gameArts-hd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gameArts-hd@2x.png"; path = "../../../../../猴王闹天宫/gameArts-hd@2x.png"; sourceTree = "<group>"; };
 		6D43F51B1CB8AB490074DCA8 /* sound-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sound-off.png"; path = "../../../../../猴王闹天宫/sound-off.png"; sourceTree = "<group>"; };
@@ -113,16 +112,7 @@
 		6D4455691C7DB23F00341220 /* SqlightResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlightResult.m; sourceTree = "<group>"; };
 		6D44556A1C7DB23F00341220 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
 		6D44556E1C7DB31500341220 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		6D4455711C7DB79100341220 /* DAPageIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPageIndicatorView.h; sourceTree = "<group>"; };
-		6D4455721C7DB79100341220 /* DAPageIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPageIndicatorView.m; sourceTree = "<group>"; };
-		6D4455731C7DB79100341220 /* DAPagesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainer.h; sourceTree = "<group>"; };
-		6D4455741C7DB79100341220 /* DAPagesContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainer.m; sourceTree = "<group>"; };
-		6D4455751C7DB79100341220 /* DAPagesContainerTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPagesContainerTopBar.h; sourceTree = "<group>"; };
-		6D4455761C7DB79100341220 /* DAPagesContainerTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPagesContainerTopBar.m; sourceTree = "<group>"; };
-		6D44557D1C7DB8A300341220 /* SKhistoryjindianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKhistoryjindianViewController.h; sourceTree = "<group>"; };
-		6D44557E1C7DB8A300341220 /* SKhistoryjindianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKhistoryjindianViewController.m; sourceTree = "<group>"; };
-		6D4455801C7DB8B300341220 /* SKhistorytiaozhanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKhistorytiaozhanViewController.h; sourceTree = "<group>"; };
-		6D4455811C7DB8B300341220 /* SKhistorytiaozhanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKhistorytiaozhanViewController.m; sourceTree = "<group>"; };
+		6D9D05B81CCB521F00262585 /* adbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adbanner.png; sourceTree = "<group>"; };
 		6DD1DF851C7C34A100D45658 /* SKhistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKhistoryViewController.h; sourceTree = "<group>"; };
 		6DD1DF861C7C34A100D45658 /* SKhistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKhistoryViewController.m; sourceTree = "<group>"; };
 		6DD1DF881C7C469900D45658 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -159,7 +149,7 @@
 		1844599B188FB1340060CDC3 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				6D4455701C7DB79100341220 /* DAPagesContainer */,
+				6D1FBB831D1D33CD00EC711F /* YFViewPager */,
 				6D4455631C7DB23F00341220 /* SQLight */,
 				1844599C188FB1340060CDC3 /* SKAppDelegate.h */,
 				1844599D188FB1340060CDC3 /* SKAppDelegate.m */,
@@ -173,10 +163,6 @@
 				184459A5188FB1340060CDC3 /* SKViewController.m */,
 				6DD1DF851C7C34A100D45658 /* SKhistoryViewController.h */,
 				6DD1DF861C7C34A100D45658 /* SKhistoryViewController.m */,
-				6D44557D1C7DB8A300341220 /* SKhistoryjindianViewController.h */,
-				6D44557E1C7DB8A300341220 /* SKhistoryjindianViewController.m */,
-				6D4455801C7DB8B300341220 /* SKhistorytiaozhanViewController.h */,
-				6D4455811C7DB8B300341220 /* SKhistorytiaozhanViewController.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -184,6 +170,7 @@
 		184459C2188FB16A0060CDC3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6D9D05B81CCB521F00262585 /* adbanner.png */,
 				6D43759A1C7B0D8E00D4A8CD /* 背景图片.png */,
 				6D43F5191CB8AB3A0074DCA8 /* gameArts-hd@2x.png */,
 				6D43F51B1CB8AB490074DCA8 /* sound-off.png */,
@@ -277,6 +264,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6D1FBB831D1D33CD00EC711F /* YFViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				6D1FBB841D1D33CD00EC711F /* YFViewPager.h */,
+				6D1FBB851D1D33CD00EC711F /* YFViewPager.m */,
+			);
+			path = YFViewPager;
+			sourceTree = "<group>";
+		};
 		6D4455631C7DB23F00341220 /* SQLight */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,20 +286,6 @@
 			);
 			name = SQLight;
 			path = SpriteKit/SQLight;
-			sourceTree = SOURCE_ROOT;
-		};
-		6D4455701C7DB79100341220 /* DAPagesContainer */ = {
-			isa = PBXGroup;
-			children = (
-				6D4455711C7DB79100341220 /* DAPageIndicatorView.h */,
-				6D4455721C7DB79100341220 /* DAPageIndicatorView.m */,
-				6D4455731C7DB79100341220 /* DAPagesContainer.h */,
-				6D4455741C7DB79100341220 /* DAPagesContainer.m */,
-				6D4455751C7DB79100341220 /* DAPagesContainerTopBar.h */,
-				6D4455761C7DB79100341220 /* DAPagesContainerTopBar.m */,
-			);
-			name = DAPagesContainer;
-			path = SpriteKit/DAPagesContainer;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -392,6 +374,7 @@
 				6D43759B1C7B0D8E00D4A8CD /* 背景图片.png in Resources */,
 				6D43F51A1CB8AB3A0074DCA8 /* gameArts-hd@2x.png in Resources */,
 				184459D1188FB16A0060CDC3 /* enemy1_down.mp3 in Resources */,
+				6D9D05B91CCB521F00262585 /* adbanner.png in Resources */,
 				18A9D91F188CFEB2001684BB /* InfoPlist.strings in Resources */,
 				6D43F51D1CB8AB490074DCA8 /* sound-off.png in Resources */,
 				184459D5188FB16A0060CDC3 /* game_music.mp3 in Resources */,
@@ -422,19 +405,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D44556B1C7DB23F00341220 /* SqlightAdapter.m in Sources */,
+				6D1FBB861D1D33CD00EC711F /* YFViewPager.m in Sources */,
 				184459A8188FB1340060CDC3 /* SKMainScene.m in Sources */,
-				6D44557B1C7DB79100341220 /* DAPagesContainerTopBar.m in Sources */,
 				184459A7188FB1340060CDC3 /* SKFoePlane.m in Sources */,
 				184459A9188FB1340060CDC3 /* SKSharedAtles.m in Sources */,
-				6D4455791C7DB79100341220 /* DAPageIndicatorView.m in Sources */,
-				6D44557A1C7DB79100341220 /* DAPagesContainer.m in Sources */,
 				6DD1DF871C7C34A100D45658 /* SKhistoryViewController.m in Sources */,
 				6D44556D1C7DB23F00341220 /* SqlightResult.m in Sources */,
 				184459A6188FB1340060CDC3 /* SKAppDelegate.m in Sources */,
 				6D44556C1C7DB23F00341220 /* SqlightDriver.m in Sources */,
 				184459AA188FB1340060CDC3 /* SKViewController.m in Sources */,
-				6D44557F1C7DB8A300341220 /* SKhistoryjindianViewController.m in Sources */,
-				6D4455821C7DB8B300341220 /* SKhistorytiaozhanViewController.m in Sources */,
 				18A9D921188CFEB2001684BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,8 +13,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //显示状态栏
+    [[UIApplication sharedApplication]setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     //先创建一个skview. Configure the view.
+    
     skView = (SKView *)self.view;
     
     
